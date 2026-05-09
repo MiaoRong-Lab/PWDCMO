@@ -1,8 +1,14 @@
 # PWDCMO
 
+[![DOI](https://img.shields.io/badge/DOI-10.1109%2FTEVC.2024.3418470-blue.svg)](https://doi.org/10.1109/TEVC.2024.3418470)
+[![MATLAB](https://img.shields.io/badge/MATLAB-R2018a%2B-orange.svg)](#requirements)
+[![PlatEMO](https://img.shields.io/badge/PlatEMO-compatible-green.svg)](#platemo-usage)
+
 MATLAB code for the paper:
 
-> D. Gong, M. Rong, N. Hu, Y. Wang, W. Pedrycz, and S. Yang, "A Prediction and Weak Coevolution-Based Dynamic Constrained Multiobjective Optimization," IEEE Transactions on Evolutionary Computation, 2025, 29(4): 1328-1342. DOI: 10.1109/TEVC.2024.3418470.
+> D. Gong, M. Rong, N. Hu, Y. Wang, W. Pedrycz, and S. Yang, "A Prediction and Weak Coevolution-Based Dynamic Constrained Multiobjective Optimization," IEEE Transactions on Evolutionary Computation, 2025, 29(4): 1328-1342. DOI: [10.1109/TEVC.2024.3418470](https://doi.org/10.1109/TEVC.2024.3418470).
+
+Repository: <https://github.com/MiaoRong-Lab/PWDCMO>
 
 This repository contains two entry points:
 
@@ -20,7 +26,7 @@ The standalone path no longer requires `normrnd` or `pdist2`; the refactor repla
 ## Repository Layout
 
 ```text
-PWDCMO_Ins/
+PWDCMO/
   Standalone/   Original-style code for reproducing the paper experiments
   PlatEMO/      Files that can be copied into or added alongside PlatEMO
   scripts/      Small entry scripts for smoke tests and experiments
@@ -50,7 +56,7 @@ Copy or add the repository's `PlatEMO` folder to the MATLAB path together with P
 
 ```matlab
 addpath(genpath('path/to/PlatEMO/PlatEMO'));
-addpath(genpath('path/to/PWDCMO_Ins/PlatEMO'));
+addpath(genpath('path/to/PWDCMO/PlatEMO'));
 
 Problem   = PWDCMO_DCMOP('N',100,'D',10,'maxFE',20000,'parameter',{1,20,4});
 Algorithm = PWDCMO('save',1,'metName',{'IGD','HV'});

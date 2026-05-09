@@ -6,7 +6,7 @@ To use them without copying files, add both official PlatEMO and this folder to 
 
 ```matlab
 addpath(genpath('path/to/PlatEMO/PlatEMO'));
-addpath(genpath('path/to/PWDCMO_Ins/PlatEMO'));
+addpath(genpath('path/to/PWDCMO/PlatEMO'));
 ```
 
 For an upstream PlatEMO contribution, copy or submit:
