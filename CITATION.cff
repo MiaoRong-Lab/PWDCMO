@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated paper."
+title: "PWDCMO: Prediction and Weak Coevolution-Based Dynamic Constrained Multiobjective Optimization"
+authors:
+  - family-names: Gong
+    given-names: Dunwei
+  - family-names: Rong
+    given-names: Miao
+  - family-names: Hu
+    given-names: Na
+  - family-names: Wang
+    given-names: Yan
+  - family-names: Pedrycz
+    given-names: Witold
+  - family-names: Yang
+    given-names: Shengxiang
+doi: 10.1109/TEVC.2024.3418470
+preferred-citation:
+  type: article
+  title: "A Prediction and Weak Coevolution-Based Dynamic Constrained Multiobjective Optimization"
+  authors:
+    - family-names: Gong
+      given-names: Dunwei
+    - family-names: Rong
+      given-names: Miao
+    - family-names: Hu
+      given-names: Na
+    - family-names: Wang
+      given-names: Yan
+    - family-names: Pedrycz
+      given-names: Witold
+    - family-names: Yang
+      given-names: Shengxiang
+  journal: "IEEE Transactions on Evolutionary Computation"
+  volume: 29
+  issue: 4
+  start: 1328
+  end: 1342
+  year: 2025
+  doi: 10.1109/TEVC.2024.3418470

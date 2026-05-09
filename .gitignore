@@ -1,0 +1,6 @@
+results/
+Data/
+*.asv
+*.fig
+*.mex*
+slprj/

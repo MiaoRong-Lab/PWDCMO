@@ -1,0 +1,35 @@
+PWDCMO Research Use License
+
+Copyright (c) 2026 The PWDCMO authors.
+
+This software is provided for research and educational purposes. Permission is
+granted to use, copy, modify, and redistribute the software for research and
+educational purposes, provided that this copyright notice and license notice
+are included in all copies or substantial portions of the software.
+
+Publications, reports, or software using this code should acknowledge this
+repository and cite the associated paper:
+
+D. Gong, M. Rong, N. Hu, Y. Wang, W. Pedrycz, and S. Yang, "A Prediction and
+Weak Coevolution-Based Dynamic Constrained Multiobjective Optimization," IEEE
+Transactions on Evolutionary Computation, 2025, 29(4): 1328-1342.
+DOI: 10.1109/TEVC.2024.3418470.
+
+If this software is used together with PlatEMO or if files in the PlatEMO
+adapter are incorporated into PlatEMO, users should also acknowledge PlatEMO
+and cite:
+
+Y. Tian, R. Cheng, X. Zhang, and Y. Jin, "PlatEMO: A MATLAB platform for
+evolutionary multi-objective optimization," IEEE Computational Intelligence
+Magazine, 2017, 12(4): 73-87.
+
+Commercial use or redistribution for commercial purposes requires separate
+permission from the copyright holders.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM,
+OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
